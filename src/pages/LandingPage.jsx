@@ -32,17 +32,15 @@ const LandingPage = () => {
       <div className="secondPart">
         <div className="boxWrapper">
           <div className="mainbox">
-            <h1>heading</h1>
+            <h1>Move to your Max</h1>
             <p>
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem vel odio, fugit nobis, nostrum perferendis temporibus
               perspiciatis veritatis deleniti enim reprehenderit consectetur est
               ea harum error aut atque inventore earum. Lorem, ipsum dolor sit
-              amet consectetur adipisicing elit. Repellat voluptatem,
-              dignissimos ad rem alias distinctio natus iste explicabo molestiae
-              obcaecati, quia necessitatibus pariatur dolore ipsum. Consequuntur
-              doloremque illum blanditiis reprehenderit.{" "}
+              adolore ipsum. Consequuntur doloremque illum blanditiis
+              reprehenderit.{" "}
             </p>
           </div>
           <div className="smallBoxes">

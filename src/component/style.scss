@@ -1,16 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap:wght@300&family=Kanit:wght@400;500;600;700&display=swap");
 
+///////Hamberger////////
+.hamberger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+  .burger {
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: white;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+  }
+}
+
+////////////Nav////////////////////////
+
 .navWraper {
   width: 100vw;
   height: 100px;
-
+  position: fixed;
+  z-index: 20;
   background: #252527;
   .navlinks {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 15px;
+    @media screen and (max-width: 420px) {
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
     .logo {
       background: radial-gradient(#fff, rgb(204, 204, 204));
       border-radius: 50%;
@@ -36,12 +62,39 @@
       .plan,
       .photo {
         cursor: pointer;
+        @media screen and (max-width: 420px) {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 1350px) {
+        width: 40%;
+      }
+      @media screen and (max-width: 420px) {
+        width: 10%;
+      }
+      .hambergerWrap {
+        @media screen and (min-width: 421px) {
+          display: none;
+        }
+
+        @media screen and (max-width: 420px) {
+          display: fixed;
+          padding-top: 10px;
+          margin-left: 10px;
+          z-index: 10;
+        }
       }
     }
     .social {
       width: 5%;
       display: flex;
       justify-content: space-between;
+      @media screen and (max-width: 1000px) {
+        width: 10%;
+      }
+      @media screen and (max-width: 420px) {
+        display: none;
+      }
       img {
         width: 30px;
       }
@@ -55,6 +108,30 @@
     }
   }
 }
+////Hamburger
+.navModalWrap {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 40%;
+  background: #cccccc; // white;
+  height: 150px;
+  z-index: 10;
+  text-align: right;
+  padding: 15px;
+  border-radius: 15px;
+  .hamburgerlinks {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .home,
+    .plan,
+    .photo {
+      font-family: "Abril Fatface";
+    }
+  }
+}
 
 //////////////////////////////////////////////////////////////// REVIEW
 .reviewWraper {
@@ -65,20 +142,34 @@
   flex-direction: column;
   align-items: center;
   //   justify-content: center;
+  @media screen and (max-width: 1000px) {
+    width: 400px;
+    height: 420px;
+  }
   .upper {
     img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
+      @media screen and (max-width: 1000px) {
+        width: 120px;
+        height: 120px;
+      }
     }
   }
   .reviewDetails {
     p {
       //   width: 90%;
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+      }
     }
     h3 {
       text-align: center;
+      @media screen and (max-width: 1000px) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -94,21 +185,37 @@
   padding: 15px;
   text-align: left;
   color: white;
+  @media screen and (max-width: 1000px) {
+    height: 350px;
+  }
+  @media screen and (max-width: 420px) {
+    flex-direction: column;
+  }
   .contact {
     width: 50%;
     display: flex;
     flex-direction: column;
+
     .contactsTitle {
       //   text-align: left;
       letter-spacing: 0.3em;
       font-family: "Abril Fatface";
+      @media screen and (max-width: 1000px) {
+        display: none;
+      }
     }
     .content {
       display: flex;
       justify-content: space-around;
+      @media screen and (max-width: 420px) {
+        flex-direction: column;
+      }
 
       .box3 {
         width: 265px;
+        @media screen and (max-width: 1000px) {
+          display: none;
+        }
       }
     }
   }
@@ -128,10 +235,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 100px;
   .header {
     font-family: "Asap", sans-serif;
     font-weight: 800;
     font-size: 62px;
+    @media screen and (max-width: 420px) {
+      font-size: 42px;
+    }
   }
 
   .contentBox {
@@ -144,6 +255,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 15px;
     .upper {
       display: flex;
       flex-direction: column;
