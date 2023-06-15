@@ -1,0 +1,70 @@
+{
+  "PriveteSession": [
+    {
+      "sessionsAmount": "10 sessions",
+      "price": "17,000",
+      "pricePerSession": "1,700",
+      "validation": "Valid 2 months"
+    },
+    {
+      "sessionsAmount": "20 sessions",
+      "price": "33,000",
+      "pricePerSession": "1,650",
+      "validation": "Valid 4 months"
+    },
+    {
+      "sessionsAmount": "30 sessions",
+      "price": "48,000",
+      "pricePerSession": "1,600",
+      "validation": "Valid 5 months"
+    },
+
+    {
+      "sessionsAmount": "50 sessions",
+      "price": "77,500",
+      "pricePerSession": "1,550",
+      "validation": "Valid 12 months"
+    }
+  ],
+  "SemiPrivatex2": [
+    {
+      "sessionsAmount": "10 sessions",
+      "price": "22,000",
+      "pricePerSession": "2,200",
+      "validation": "Valid 2 months"
+    },
+    {
+      "sessionsAmount": "20 sessions",
+      "price": "42,000",
+      "pricePerSession": "2,100",
+      "validation": "Valid 4 months"
+    },
+    {
+      "sessionsAmount": "30 sessions",
+      "price": "60,000",
+      "pricePerSession": "2,000",
+      "validation": "Valid 5 months"
+    }
+  ],
+  "SemiPrivatex3": [
+    {
+      "sessionsAmount": "10 sessions",
+      "price": "24,000",
+      "pricePerSession": "2,400",
+      "validation": "Valid 2 months"
+    },
+
+    {
+      "sessionsAmount": "20 sessions",
+      "price": "46,000",
+      "pricePerSession": "2,300",
+      "validation": "Valid 4 months"
+    },
+    {
+      "sessionsAmount": "30 sessions",
+      "price": "63,000",
+      "pricePerSession": "2,100",
+      "validation": "Valid 5 months"
+    }
+  ]
+}

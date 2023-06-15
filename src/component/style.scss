@@ -27,6 +27,9 @@
   position: fixed;
   z-index: 20;
   background: #252527;
+  @media screen and (max-width: 420px) {
+    height: 80px;
+  }
   .navlinks {
     display: flex;
     align-items: center;
@@ -36,6 +39,7 @@
       justify-content: space-between;
       padding-left: 20px;
       padding-right: 20px;
+      padding-top: 0;
     }
     .logo {
       background: radial-gradient(#fff, rgb(204, 204, 204));
@@ -46,10 +50,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      @media screen and (max-width: 420px) {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+      }
       img {
         width: 83px;
         height: 73px;
         // background-color: rgb(204, 204, 204, 0.8);
+        @media screen and (max-width: 420px) {
+          width: 63px;
+          height: 63px;
+        }
       }
     }
     .middleLinks {
@@ -230,25 +243,74 @@
 //////////////////// Price/////////////////
 .pricePageWraper {
   width: 100vw;
-  height: 88vh;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  // justify-content: center;
   align-items: center;
   padding-top: 100px;
+  background: #f2f2f2;
+  text-align: center;
+  @media screen and (max-width: 420px) {
+    // padding-top: 200px;
+  }
   .header {
     font-family: "Asap", sans-serif;
     font-weight: 800;
     font-size: 62px;
+    width: 100%;
+    padding: 20px;
+    background: #97999c;
     @media screen and (max-width: 420px) {
       font-size: 42px;
     }
   }
+  .boxWrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+    // margin-top: 20px;
+    @media screen and (max-width: 420px) {
+      padding: 5px;
+    }
+  }
+  // #97999c
+  .privateSessionHeader {
+    width: 100%;
+    background: #97999c;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+  }
+  .boxWrap.PriveteSession {
+    background: #97999c;
+    .contentBox {
+      color: white;
+    }
+  }
 
+  .SemiPrivatex2Header {
+    width: 100%;
+    background: #2c2c2d;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+  }
+  .boxWrap.SemiPrivatex2 {
+    background: #2c2c2d;
+    .contentBox {
+      color: white;
+    }
+  }
   .contentBox {
     width: 267px;
     height: 339px;
-    border: 1px solid #9ba4b5;
+    border: 1px solid white; // #9ba4b5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     display: flex;
@@ -256,6 +318,11 @@
     justify-content: space-around;
     align-items: center;
     margin: 15px;
+    @media screen and (max-width: 420px) {
+      width: 180px;
+      height: 220px;
+      margin: 10px;
+    }
     .upper {
       display: flex;
       flex-direction: column;
@@ -272,10 +339,22 @@
         font-size: 50px;
         line-height: 108px;
         font-weight: 800;
+        @media screen and (max-width: 420px) {
+          line-height: 90px;
+        }
       }
       .dummyText {
         text-align: center;
         margin: 15px;
+
+        @media screen and (max-width: 420px) {
+          margin: 0;
+        }
+        p {
+          color: red;
+          font-size: 12px;
+          font-weight: 700;
+        }
       }
     }
     .bookBtn {
