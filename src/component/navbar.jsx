@@ -36,7 +36,7 @@ const Navbar = () => {
             PLAN&PRICEING
           </div>
           <div className="photo" onClick={() => navigate("/gallery")}>
-            PHOTO
+            GALLERY
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
             PLAN&PRICEING
           </div>
           <div className="photo" onClick={() => navigate("/gallery")}>
-            PHOTO
+            GALLERY
           </div>
         </div>
         <div className="social">

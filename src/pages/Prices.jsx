@@ -1,6 +1,7 @@
 import Navbar from "../component/navbar";
 import packages from "../datas/prices.json";
 import Footer from "../component/footer";
+import promotionImg from "../img/promotionImg.jpg";
 
 const PricePage = () => {
   console.log(packages.PriveteSession);
@@ -9,50 +10,72 @@ const PricePage = () => {
       <Navbar />
       <div className="pricePageWraper">
         <div className="header">Choose Your Plan</div>
+        <div className="promotion">
+          <div className="special">
+            <div className="specialOffer">
+              <h1>PERSONAL</h1>
+              <h1>TRAINING</h1>
+              <h2>TRIAL</h2>
+              <h3 className="discountPrice">
+                999 <span>THB</span>{" "}
+              </h3>
+              <div className="oldPricewDash">
+                <h3 className="discountPrice oldPrice">
+                  1800 <span>THB</span>{" "}
+                </h3>
+                <div className="dash"></div>
+              </div>
+              <div className="validuser">
+                ** Valid for 1 user - First time only
+              </div>
+            </div>
+          </div>
+          <img src={promotionImg} alt="promotion" />
+        </div>
         <h2 className="privateSessionHeader">Private Training</h2>
         <div className="boxWrap PriveteSession">
-          {packages.PriveteSession?.map((p) => {
+          {packages.PriveteSession?.map((p, i) => {
             return (
-              <>
+              <div key={i}>
                 <PrizeBox
                   amountSession={p.sessionsAmount}
                   price={p.price}
                   pricePerHour={p.pricePerSession}
                   validsation={p.validation}
                 />
-              </>
+              </div>
             );
           })}
         </div>
         {/* Semi private */}
         <h2 className="SemiPrivatex2Header">Semi Private Training x2</h2>
         <div className="boxWrap SemiPrivatex2">
-          {packages.SemiPrivatex2?.map((p) => {
+          {packages.SemiPrivatex2?.map((p, i) => {
             return (
-              <>
+              <div key={i}>
                 <PrizeBox
                   amountSession={p.sessionsAmount}
                   price={p.price}
                   pricePerHour={p.pricePerSession}
                   validsation={p.validation}
                 />
-              </>
+              </div>
             );
           })}
         </div>
         {/* x3 simi private */}
         <h2 className="SemiPrivatex3Header">Semi Private Training x3</h2>
         <div className="boxWrap SemiPrivatex3">
-          {packages.SemiPrivatex3?.map((p) => {
+          {packages.SemiPrivatex3?.map((p, i) => {
             return (
-              <>
+              <div key={i}>
                 <PrizeBox
                   amountSession={p.sessionsAmount}
                   price={p.price}
                   pricePerHour={p.pricePerSession}
                   validsation={p.validation}
                 />
-              </>
+              </div>
             );
           })}
         </div>
@@ -64,7 +87,7 @@ const PricePage = () => {
 
 export default PricePage;
 
-const PrizeBox = ({ amountSession, price, pricePerHour, validsation }) => {
+const PrizeBox = ({ amountSession, price, pricePerHour, validsation, key }) => {
   return (
     <div className="contentBox">
       <div className="upper">
