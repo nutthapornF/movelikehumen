@@ -10,7 +10,7 @@ const LandingPage = () => {
   const services = [
     "M2T BLADE THERAPY",
     "STRENGTH TRAINING",
-    "FLEXIBILLITY",
+    "MOBILITY",
     "ONLINE PERSONAL TRAINING",
     "NUTRITION GUIDELINE",
     "AND MORE",
