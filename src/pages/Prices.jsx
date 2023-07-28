@@ -1,7 +1,10 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import Navbar from "../component/navbar";
 import packages from "../datas/prices.json";
 import Footer from "../component/footer";
 import promotionImg from "../img/promotionImg.jpg";
+import promotionPricedImg from "../img/promotionPriceImg.jpg";
 
 const PricePage = () => {
   console.log(packages.PriveteSession);
@@ -11,7 +14,7 @@ const PricePage = () => {
       <div className="pricePageWraper">
         <div className="header">Choose Your Plan</div>
         <div className="promotion">
-          <div className="special">
+          {/* <div className="special">
             <div className="specialOffer">
               <h1>PERSONAL</h1>
               <h1>TRAINING</h1>
@@ -29,8 +32,15 @@ const PricePage = () => {
                 ** Valid for 1 user - First time only
               </div>
             </div>
-          </div>
-          <img src={promotionImg} alt="promotion" />
+          </div> */}
+          <LazyLoadImage
+            src={promotionPricedImg}
+            // width={600}
+            // height={400}
+            alt="promotion"
+            effect="blur"
+          />
+          {/* <img src={promotionImg} alt="promotion" /> */}
         </div>
         <h2 className="privateSessionHeader">Private Training</h2>
         <div className="boxWrap PriveteSession">

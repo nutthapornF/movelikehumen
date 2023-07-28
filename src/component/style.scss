@@ -124,24 +124,29 @@
 ////Hamburger
 .navModalWrap {
   position: absolute;
-  top: 100px;
+  top: 80px;
   right: 0;
-  width: 40%;
-  background: #cccccc; // white;
-  height: 150px;
+  width: 100%;
+  height: 100vh;
+  // background: #cccccc; // white;
+  background: #252527; // white;
   z-index: 10;
-  text-align: right;
+  color: white;
+  // text-align: right;
   padding: 15px;
-  border-radius: 15px;
+  // border-radius: 15px;
   .hamburgerlinks {
-    height: 100%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 30px;
     .home,
     .plan,
     .photo {
       font-family: "Abril Fatface";
+      font-size: 28px;
+      margin-top: 5px;
     }
   }
 }

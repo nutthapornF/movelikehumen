@@ -1,5 +1,5 @@
 import "./style.scss";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useState } from "react";
 import { galleryPhoto } from "../datas/indexImg";
 import Navbar from "../component/navbar";
@@ -16,8 +16,17 @@ const Gallery = () => {
       <div className="galleryWrapper">
         <div className="singleImg">
           {photos.map((p, i) => {
-            console.log(p);
-            return <img src={p} alt="gym photos" key={i} />;
+            // console.log(p);
+            return (
+              <LazyLoadImage
+                src={p}
+                // width={600}
+                // height={400}
+                alt="gym photos"
+                key={i}
+                effect="blur"
+              />
+            );
           })}
         </div>
       </div>
