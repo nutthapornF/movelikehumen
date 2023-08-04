@@ -32,16 +32,21 @@ const LandingPage = () => {
       <div className="secondPart">
         <div className="boxWrapper">
           <div className="mainbox">
-            <h1>Move to your Max</h1>
-            <p>
-              {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem vel odio, fugit nobis, nostrum perferendis temporibus
-              perspiciatis veritatis deleniti enim reprehenderit consectetur est
-              ea harum error aut atque inventore earum. Lorem, ipsum dolor sit
-              adolore ipsum. Consequuntur doloremque illum blanditiis
-              reprehenderit.{" "}
+            <p className="p1">
+              Everybody is unique, with their own strengths, limitations and
+              schedules . Therefore, as a professional trainer, our passion is
+              to guide you towards a healthier lifestyle. we understand the
+              difficulties and challenges of balancing your lifestyle to a
+              healthier lifestyle.
             </p>
+            <br />
+            <p className="p2">
+              our method is to build a custom plan based on your health,
+              schedule and most importantly, your goals. we'll guide you through
+              our proven system of creating a healthier, happier and more
+              confident version of yourself
+            </p>
+            <h1>Move to your Max</h1>
           </div>
           <div className="smallBoxes">
             {services.map((s, i) => {

@@ -77,20 +77,38 @@
         background-color: #323437;
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
-        font-family: "Zen Tokyo Zoo", cursive;
-        // @media screen and (max-width: 420px) {
-        //   width: 325px;
-        //   height: 176px;
-        // }
+        padding: 30px 20px 10px 20px;
+
+        @media screen and (max-width: 965px) {
+          height: 320px;
+        }
+        @media screen and (max-width: 660px) {
+          height: 300px;
+          padding: 15px 20px 10px 20px;
+        }
+        h1 {
+          font-family: "Zen Tokyo Zoo", cursive;
+        }
         p {
           // @media screen and (max-width: 420px) {
           //   display: none;
           // }
           margin: 0;
+          font-size: 1em;
+          font-family: sans-serif;
+          @media screen and (max-width: 870px) {
+            font-size: 0.9em;
+          }
+          @media screen and (max-width: 660px) {
+            font-size: 0.8em;
+          }
+        }
+        .p1,
+        .p2 {
+          text-indent: 2.5em;
         }
         h1 {
           color: rgba(205, 24, 24, 0.8);
