@@ -38,6 +38,9 @@ const Navbar = () => {
           <div className="photo" onClick={() => navigate("/gallery")}>
             GALLERY
           </div>
+          <div className="photo" onClick={() => navigate("/gallery")}>
+            CONTACT US
+          </div>
         </div>
       </div>
     );
@@ -62,6 +65,9 @@ const Navbar = () => {
           </div>
           <div className="photo" onClick={() => navigate("/gallery")}>
             GALLERY
+          </div>
+          <div className="contact" onClick={() => navigate("/gallery")}>
+            CONTACT US
           </div>
         </div>
         <div className="social">
