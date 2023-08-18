@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="content">
           <div className="box1">
             <p>Line: @movelikeahuman</p>
-            <p>Call : 0903280298</p>
+            {/* <p>Call : 0903280298</p> */}
           </div>
           <div className="box2">
             <p>BTS Phromphrong</p>

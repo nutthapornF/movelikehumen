@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="photo" onClick={() => navigate("/gallery")}>
             GALLERY
           </div>
-          <div className="photo" onClick={() => navigate("/gallery")}>
+          <div className="photo" onClick={() => navigate("/contactus")}>
             CONTACT US
           </div>
         </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
       {isHamburgerOpen ? <HamburgerModal /> : <></>}
       <div className="navlinks">
         <div className="logo">
-          <img src={Logo} alt="logo" />{" "}
+          <img src={Logo} alt="logo" onClick={() => navigate("/")} />{" "}
         </div>
         <div className="middleLinks">
           <div className="hambergerWrap" onClick={hamburgerToggle}>
@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="photo" onClick={() => navigate("/gallery")}>
             GALLERY
           </div>
-          <div className="contact" onClick={() => navigate("/gallery")}>
+          <div className="contact" onClick={() => navigate("/contactus")}>
             CONTACT US
           </div>
         </div>

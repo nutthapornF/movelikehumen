@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap:wght@300&family=Kanit:wght@400;500;600;700&family=Zen+Tokyo+Zoo&display=swap");
-//font-family: 'Zen Tokyo Zoo', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Kanit:wght@400;500;600;700&family=Raleway:wght@400;600;700;900&display=swap");
+//font-family: 'Zen Tokyo Zoo', cursive; font-family: 'Abel', sans-serif;
 .landingPageWraper {
   width: 100vw;
   height: 100vh;
@@ -216,13 +217,16 @@
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+  // justify-content: center;
   padding: 0 4px;
+  // padding: 0;
+  height: fit-content;
   .column {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
-    margin-top: 120px;
+    margin-top: 110px;
 
     @media screen and (max-width: 800px) {
       -ms-flex: 50%;
@@ -238,6 +242,64 @@
       margin-top: 8px;
       vertical-align: middle;
       width: 100%;
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////Contact us
+///
+.contactUs {
+  width: 100vw;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+  align-items: center;
+
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    width: 80%;
+    height: 100%;
+    .header {
+      width: 45%;
+      h1 {
+        font-family: "Abril Fatface";
+        font-size: 2em;
+        text-align: left;
+      }
+    }
+    .contexttext {
+      // width: 45%;
+      font-family: "Abel", sans-serif;
+      font-size: 1.2em;
+    }
+    .mapimg {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .contact {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 4px;
+      .left {
+        font-family: "Abel", sans-serif;
+        font-size: 1.2em;
+      }
+      .right {
+        img {
+          width: 120px;
+        }
+      }
     }
   }
 }
