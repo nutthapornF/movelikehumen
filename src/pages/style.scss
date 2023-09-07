@@ -256,6 +256,14 @@
   flex-direction: column;
   // justify-content: space-around;
   align-items: center;
+  overflow: scroll;
+  .header,
+  .contexttext,
+  .mapimg,
+  .contact,
+  .hours {
+    margin-top: 20px;
+  }
 
   .contactContent {
     display: flex;
@@ -264,9 +272,17 @@
     align-items: center;
     padding-top: 120px;
     width: 80%;
-    height: 100%;
+    // height: 100%;
+
+    @media screen and (max-width: 450px) {
+      width: 100%;
+    }
+
     .header {
       width: 45%;
+      @media screen and (max-width: 450px) {
+        width: 80%;
+      }
       h1 {
         font-family: "Abril Fatface";
         font-size: 2em;
@@ -280,6 +296,9 @@
     }
     .mapimg {
       width: 50%;
+      @media screen and (max-width: 450px) {
+        width: 90%;
+      }
       img {
         width: 100%;
       }
@@ -291,14 +310,38 @@
       align-items: center;
       justify-content: space-around;
       padding: 4px;
+      @media screen and (max-width: 450px) {
+        width: 80%;
+      }
       .left {
         font-family: "Abel", sans-serif;
         font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        p {
+          margin: 0;
+        }
       }
       .right {
         img {
           width: 120px;
+          @media screen and (max-width: 450px) {
+            width: 80px;
+          }
         }
+      }
+    }
+    .hours {
+      .hour {
+        font-size: 28px;
+        @media screen and (max-width: 450px) {
+          font-size: 24px;
+        }
+      }
+      .reserve {
+        text-align: center;
       }
     }
   }

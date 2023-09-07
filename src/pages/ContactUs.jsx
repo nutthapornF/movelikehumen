@@ -25,7 +25,7 @@ const ContactUs = () => {
           </div>
           <div className="contact">
             <div className="left">
-              <p>Call : 0867623217</p>
+              {/* <p>Call : 0867623217</p> */}
               <p>Line : @Movelikeahuman</p>
             </div>
             <div className="right">
@@ -33,7 +33,8 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="hours">
-            <h1>Open everyday : Reserveation Only</h1>
+            <h1 className="hour">Open everyday : 06:30 - 21:00 </h1>
+            <h1 className="reserve">Reservation Only</h1>
           </div>
         </div>
       </div>

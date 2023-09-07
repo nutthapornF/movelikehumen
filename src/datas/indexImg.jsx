@@ -6,7 +6,11 @@ import gym5 from "../img/gym5.jpg";
 import gym6 from "../img/gym6.jpg";
 import gym7 from "../img/gym7.jpg";
 import promotionImg from "../img/promotionImg.jpg";
+import ply1 from "../img/ply1.webp";
+import ply2 from "../img/ply2.webp";
+import ply3 from "../img/ply3.webp";
+import ply4 from "../img/ply4.webp";
 
-export const galleryPhoto1 = [gym2, gym6, gym4, gym3];
-export const galleryPhoto2 = [gym1, gym5, gym7];
+export const galleryPhoto1 = [ply1, gym2, gym6, gym4, gym3, ply4];
+export const galleryPhoto2 = [gym1, ply3, gym5, ply2, gym7];
 // export { gym1, gym2, gym3, gym4, gym4, gym5, gym6 };
