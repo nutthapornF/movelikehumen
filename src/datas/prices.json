@@ -1,6 +1,12 @@
 {
   "PriveteSession": [
     {
+      "sessionsAmount": "1 session",
+      "price": "1,750",
+      "pricePerSession": "1,750",
+      "validation": "Valid 1 months"
+    },
+    {
       "sessionsAmount": "10 sessions",
       "price": "17,000",
       "pricePerSession": "1,700",

@@ -20,11 +20,22 @@ const LandingPage = () => {
     <div className="landingPageWraper">
       <Navbar />
       <div className="main">
+        {/* <iframe
+          width="100%"
+          height="750px"
+          src="https://www.youtube.com/embed/nsKqaDSNt6U?si=MWNiuLESCYeNgYRd&amp;controls=0&amp;start=8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe> */}
         <img className="mainBg" src={MainBG} alt="mainBG" />
         <div className="displayWrap">
           <div className="title">MOVE LIKE A HUMAN</div>
           <div className="btnWrap">
-            <button>BOOK NOW</button>
+            <button>
+              {" "}
+              <a href="https://lin.ee/S7P034e"> BOOK NOW </a>
+            </button>
           </div>
         </div>
       </div>
@@ -51,12 +62,14 @@ const LandingPage = () => {
           <div className="smallBoxes">
             {services.map((s, i) => {
               return (
-                <div className="box" key={i}>
-                  <div className="content">
-                    <div className="checked">
-                      <Checked />
+                <div className="outerbox">
+                  <div className="box" key={i}>
+                    <div className="content">
+                      <div className="checked">
+                        <Checked />
+                      </div>
+                      <h3>{s}</h3>
                     </div>
-                    <h3>{s}</h3>
                   </div>
                 </div>
               );
@@ -66,6 +79,7 @@ const LandingPage = () => {
       </div>
       {/*///////////// third part ///////////// */}
       <div className="clientReview">
+        <div className="reviewLine"></div>
         <Review />
       </div>
       <Footer />

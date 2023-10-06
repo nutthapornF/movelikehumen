@@ -11,6 +11,6 @@ import ply2 from "../img/ply2.webp";
 import ply3 from "../img/ply3.webp";
 import ply4 from "../img/ply4.webp";
 
-export const galleryPhoto1 = [ply1, gym2, gym6, gym4, gym3, ply4];
-export const galleryPhoto2 = [gym1, ply3, gym5, ply2, gym7];
+export const galleryPhoto1 = [ply3, gym1, gym6, ply4, gym5];
+export const galleryPhoto2 = [gym4, gym2, ply2, gym7, gym3];
 // export { gym1, gym2, gym3, gym4, gym4, gym5, gym6 };

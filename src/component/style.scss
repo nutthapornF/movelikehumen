@@ -47,6 +47,7 @@
       border-radius: 50%;
       width: 70px;
       height: 70px;
+      cursor: pointer;
 
       display: flex;
       align-items: center;
@@ -170,6 +171,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   @media screen and (max-width: 1000px) {
     width: 400px;
     height: 420px;
@@ -179,10 +181,11 @@
     height: 480px;
   }
   .upper {
+    margin-bottom: 15px;
     img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
+      width: 100px;
+      height: 100%;
+      // border-radius: 50%;
       object-fit: cover;
       @media screen and (max-width: 1000px) {
         width: 120px;
@@ -192,12 +195,14 @@
   }
   .reviewDetails {
     p {
+      // color: white;
       //   width: 90%;
       @media screen and (max-width: 1000px) {
         font-size: 14px;
       }
     }
     h3 {
+      // color: white;
       text-align: center;
       @media screen and (max-width: 1000px) {
         font-size: 16px;

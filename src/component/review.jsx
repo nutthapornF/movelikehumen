@@ -1,9 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import client1 from "../img/client1.jpg";
-import client2 from "../img/client2.jpg";
 import person from "../img/person.png";
+import personIcon from "../img/personIcon.png";
+
 import { Star } from "../icons/stars";
 import { ClientReview } from "../datas/clientReview";
 const Review = () => {
@@ -32,7 +32,7 @@ const ReviewCard = ({ img, title, p }) => {
   return (
     <div className="reviewWraper reviewtwo">
       <div className="upper">
-        {/* <img src={img} alt=" client1" /> */}
+        <img src={personIcon} alt=" client1" />
         {/* <div className="stars">
           <Star />
           <Star />

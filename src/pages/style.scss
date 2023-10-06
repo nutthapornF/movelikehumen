@@ -46,22 +46,32 @@
       }
       button {
         background-color: rgb(205, 24, 24, 0.8);
-        color: white;
+        // color: white;
         width: 150px;
         height: 39px;
         border: none;
         border-radius: 8px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
       }
     }
   }
   .secondPart {
     position: relative;
-    height: 700px;
-    @media screen and (max-width: 600px) {
-      height: 856px;
+    height: 750px;
+    @media screen and (max-width: 671px) {
+      height: 1006px;
     }
-    @media screen and (max-width: 420px) {
-      height: 756px;
+    @media screen and (max-width: 448px) {
+      height: 900px;
+    }
+    @media screen and (max-width: 408px) {
+      height: 780px;
+    }
+    @media screen and (max-width: 278px) {
+      height: 1150px;
     }
     .boxWrapper {
       width: 100%;
@@ -128,6 +138,18 @@
           width: 100%;
           justify-content: space-around;
         }
+        .outerbox {
+          border: solid 2px #cccccc;
+          margin: 25px;
+          border-radius: 4px;
+          @media screen and (max-width: 420px) {
+            margin: 10px;
+          }
+        }
+        .outerbox:nth-child(2n) {
+          border: solid 2px #323437;
+          // background: #cccccc;
+        }
         .box {
           width: 150px;
           height: 150px;
@@ -136,11 +158,18 @@
           align-items: center;
           justify-content: center;
           color: white;
-          margin: 25px;
-          @media screen and (max-width: 420px) {
+          margin: 10px;
+          border-radius: 4px;
+
+          @media screen and (max-width: 448px) {
             margin: 15px;
             width: 120px;
             height: 120px;
+          }
+          @media screen and (max-width: 408px) {
+            margin: 8px;
+            width: 100px;
+            height: 100px;
           }
 
           .checked {
@@ -177,8 +206,9 @@
   .clientReview {
     height: fit-content;
     width: 100%;
-    background: #6f6d72;
+    // background: #6f6d72;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     // @media screen and (max-width: 420px) {
@@ -186,6 +216,12 @@
     //     display: none;
     //   }
     // }
+    .reviewLine {
+      width: 60%;
+      height: 5px;
+      border-top: solid 2px black;
+      border-bottom: dashed 2px black;
+    }
   }
 }
 ////////////////////////////////////////////////////////////////Gallery
