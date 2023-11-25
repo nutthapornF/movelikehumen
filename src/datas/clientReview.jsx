@@ -10,8 +10,8 @@ export const ClientReview = [
       "I have been training with Chris Pantony for the past two years, and believe he is one of the most experienced and committed trainers around.He works with my ability level to help me achieve my goals and always corrects to avoid any injuries.He also performs fantastic treatments with M2T-Blades.I highly recommend Chris as a trainer for all ages and skill levels.Thank you Chris. ",
   },
   {
-    title: "Chris is an excellent coach.",
+    title: "Working out with Chris is 🔥!",
     detail:
-      " Our family (parents + 2 teenagers) have worked out with Chris for over three years. He tailors great workouts for each of us, perfectly matching these with our goals, abilities and adjusting for any specific issues. No two workouts are the same, so it is always both challenging and interesting. He works with us individually toward longer term strength and fitness goals. His depth of knowledge and attention to detail has been especially helpful in avoiding injury and in building our teenagers’ interest and confidence in strength training that they can take with them for the rest of their lives. Chris has also specifically focused sessions to build their knowledge for independent gym training when they head offshore for further studies. We are very happy to recommend Chris as a trainer/coach. ",
+      "A lovely chap, with years of experience, easily the best trainer I have ever worked with. The best thing is that I have actually got results, for the first time. Nothing beats seeing your body change for the better.  I couldn't be happier, highly recommended.",
   },
 ];

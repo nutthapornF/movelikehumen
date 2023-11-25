@@ -1,16 +1,35 @@
-import gym1 from "../img/gym1.jpeg";
-import gym2 from "../img/gym2.jpeg";
-import gym3 from "../img/gym3.jpeg";
-import gym4 from "../img/gym4.jpeg";
-import gym5 from "../img/gym5.jpg";
-import gym6 from "../img/gym6.jpg";
-import gym7 from "../img/gym7.jpg";
-import promotionImg from "../img/promotionImg.jpg";
-import ply1 from "../img/ply1.webp";
-import ply2 from "../img/ply2.webp";
-import ply3 from "../img/ply3.webp";
-import ply4 from "../img/ply4.webp";
+import ply4 from "../img/ply4.JPG";
+import plyT2 from "../img/plyT.JPG";
 
-export const galleryPhoto1 = [ply3, gym1, gym6, ply4, gym5];
-export const galleryPhoto2 = [gym4, gym2, ply2, gym7, gym3];
+//----------------Testing yellow ish------------------------------------------------
+import movelikeahuman1 from "../img/movelikeahuman1.JPG";
+import movelikeahuman2 from "../img/movelikeahuman2.JPG";
+import movelikeahuman3 from "../img/movelikeahuman3.JPG";
+import movelikeahuman4 from "../img/movelikeahuman4.jpg";
+import movelikeahuman5 from "../img/movelikeahuman5.jpg";
+import movelikeahuman6 from "../img/movelikeahuman6.JPG";
+import movelikeahuman7 from "../img/movelikeahuman7.JPG";
+import movelikeahuman8 from "../img/movelikeahuman8.JPG";
+import movelikeahuman9 from "../img/movelikeahuman9.JPG";
+import movelikeahuman10 from "../img/movelikeahuman10.JPG";
+import movelikeahuman11 from "../img/movelikeahuman11.JPG";
+import movelikeahuman12 from "../img/movelikeahuman12.JPG";
+
+export const galleryPhoto1 = [
+  movelikeahuman5,
+  movelikeahuman12,
+  movelikeahuman3,
+  movelikeahuman2,
+  movelikeahuman10,
+  ply4,
+];
+export const galleryPhoto2 = [
+  movelikeahuman1,
+  movelikeahuman9,
+  movelikeahuman7,
+  movelikeahuman11,
+  plyT2,
+  movelikeahuman8,
+];
+
 // export { gym1, gym2, gym3, gym4, gym4, gym5, gym6 };

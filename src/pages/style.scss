@@ -12,18 +12,24 @@
     justify-content: center;
     .mainBg {
       width: 100%;
-      height: 750px;
+      height: 100%;
       object-fit: cover;
+      @media screen and (max-width: 430px) {
+        height: 700px;
+        // object-fit: contain;
+      }
     }
     .displayWrap {
       position: absolute;
-      height: 250px;
+      height: 350px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      @media screen and (max-width: 420px) {
-        height: 70%;
+      padding: 20px;
+      @media screen and (max-width: 430px) {
+        height: 60%;
+        padding: 0;
       }
       .title {
         font-family: "Abril Fatface";
@@ -38,22 +44,23 @@
           font-size: 72px;
           text-align: center;
         }
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 430px) {
           font-size: 52px;
-          height: 70%;
-          line-height: 205%;
+          // height: 100%;
+          line-height: 105%;
         }
       }
       button {
         background-color: rgb(205, 24, 24, 0.8);
         // color: white;
         width: 150px;
-        height: 39px;
+        height: 55px;
         border: none;
         border-radius: 8px;
         a {
           text-decoration: none;
           color: white;
+          font-weight: 500;
         }
       }
     }
@@ -85,7 +92,8 @@
         width: 60%;
         min-width: 325px;
         height: 276px;
-        background-color: #323437;
+        // background-color: #323437;
+        background-color: #252527;
         color: white;
         display: flex;
         flex-direction: column;
@@ -153,7 +161,8 @@
         .box {
           width: 150px;
           height: 150px;
-          background-color: #323437;
+          // background-color: #323437;
+          background-color: #252527;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -226,27 +235,9 @@
 }
 ////////////////////////////////////////////////////////////////Gallery
 .galleryWrapper {
-  width: 100vw;
+  width: 100%;
   height: 88vh;
   padding: 20px;
-
-  // .singleImg {
-  //   width: 100%;
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   align-items: center;
-  //   justify-content: center;
-  //   margin-top: 100px;
-
-  //   img {
-  //     margin: 10px;
-  //     width: 100%;
-  //     object-fit: cover;
-  //     @media screen and (max-width: 420px) {
-  //       width: 80%;
-  //     }
-  //   }
-  // }
 }
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -254,15 +245,16 @@
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   // justify-content: center;
-  padding: 0 4px;
+  // padding: 0 4px;
   // padding: 0;
   height: fit-content;
+  margin-left: 0;
   .column {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
-    margin-top: 110px;
+    margin-top: 50px;
 
     @media screen and (max-width: 800px) {
       -ms-flex: 50%;

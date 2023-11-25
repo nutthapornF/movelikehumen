@@ -2,6 +2,7 @@ import "./style.scss";
 
 import Navbar from "../component/navbar";
 import MainBG from "../img/mainBG.jpg";
+import movelikeahumanBg from "../img/yellowIshMain.JPG";
 import Review from "../component/review";
 import Footer from "../component/footer";
 import { Checked } from "../icons/checked";
@@ -28,7 +29,7 @@ const LandingPage = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe> */}
-        <img className="mainBg" src={MainBG} alt="mainBG" />
+        <img className="mainBg" src={movelikeahumanBg} alt="mainBG" />
         <div className="displayWrap">
           <div className="title">MOVE LIKE A HUMAN</div>
           <div className="btnWrap">
