@@ -31,7 +31,7 @@ const LandingPage = () => {
           allowfullscreen></iframe> */}
         <img className="mainBg" src={movelikeahumanBg} alt="mainBG" />
         <div className="displayWrap">
-          <div className="title">MOVE LIKE A HUMAN</div>
+          <div className="title"> MOVE LIKE A HUMAN</div>
           <div className="btnWrap">
             <button>
               {" "}

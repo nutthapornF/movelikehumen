@@ -1,13 +1,16 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import "./style.scss";
 import Navbar from "../component/navbar";
 import packages from "../datas/prices.json";
 import Footer from "../component/footer";
 import promotionImg from "../img/promotionImg.jpg";
 import promotionPricedImg from "../img/promotionPriceImg.jpg";
+import blackFridayPromoton from "../img/blackFridayPromotion.png";
+import blackFridayPromoton2 from "../img/blackFridayPromotion2.JPG";
 
 const PricePage = () => {
-  console.log(packages.PriveteSession);
+  // console.log(packages.PriveteSession);
   return (
     <>
       <Navbar />
@@ -39,6 +42,19 @@ const PricePage = () => {
             // height={400}
             alt="promotion"
             effect="blur"
+            className="promotionImg"
+          />
+          <LazyLoadImage
+            src={blackFridayPromoton}
+            alt="promotion"
+            effect="blur"
+            className="promotionImg"
+          />
+          <LazyLoadImage
+            src={blackFridayPromoton2}
+            alt="promotion"
+            effect="blur"
+            className="promotionImg"
           />
           {/* <img src={promotionImg} alt="promotion" /> */}
         </div>
