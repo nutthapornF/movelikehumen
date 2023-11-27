@@ -1,5 +1,5 @@
 import "./style.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import gymMap from "../img/gymMap.png";
 import LineQR from "../img/LineQr.png";
 
@@ -7,6 +7,9 @@ import Navbar from "../component/navbar";
 
 const ContactUs = () => {
   // console.log(galleryPhoto);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
