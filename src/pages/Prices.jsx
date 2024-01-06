@@ -50,12 +50,12 @@ const PricePage = () => {
             effect="blur"
             className="promotionImg"
           />
-          <LazyLoadImage
+          {/* <LazyLoadImage
             src={blackFridayPromoton2}
             alt="promotion"
             effect="blur"
             className="promotionImg"
-          />
+          /> */}
           {/* <img src={promotionImg} alt="promotion" /> */}
         </div>
         <h2 className="privateSessionHeader">Private Training</h2>

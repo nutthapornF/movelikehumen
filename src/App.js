@@ -7,11 +7,6 @@ import ContactUs from "./pages/ContactUs";
 import "./App.css";
 
 function App() {
-  // return (
-  //   // <div className="App">
-  //   //   <LandingPage />
-  //   // </div>
-  // );
   return (
     <>
       <Routes>
