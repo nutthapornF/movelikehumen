@@ -63,8 +63,8 @@ const LandingPage = () => {
           <div className="smallBoxes">
             {services.map((s, i) => {
               return (
-                <div className="outerbox">
-                  <div className="box" key={i}>
+                <div className="outerbox" key={i}>
+                  <div className="box">
                     <div className="content">
                       <div className="checked">
                         <Checked />
