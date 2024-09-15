@@ -5,7 +5,7 @@ import Navbar from "../component/navbar";
 import packages from "../datas/prices.json";
 import Footer from "../component/footer";
 import promotionImg from "../img/promotionImg.jpg";
-import promotionPricedImg from "../img/promotionPriceImg.jpg";
+import promotionPricedImg from "../img/promotionPriceImgg.jpg";
 import blackFridayPromoton from "../img/blackFridayPromotion.png";
 import blackFridayPromoton2 from "../img/blackFridayPromotion2.JPG";
 
