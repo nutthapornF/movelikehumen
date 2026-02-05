@@ -53,10 +53,10 @@ const LandingPage = () => {
             </p>
             <br />
             <p className="p2">
-              our method is to build a custom plan based on your health,
-              schedule and most importantly, your goals. we'll guide you through
-              our proven system of creating a healthier, happier and more
-              confident version of yourself
+              our method is to build a custom plan based on your schedule, goals
+              ,and most importantly, your health. we'll guide you through our
+              proven system of creating a healthier, happier and more confident
+              version of yourself
             </p>
             <h1>Move to your Max</h1>
           </div>
