@@ -10,7 +10,7 @@ import blackFridayPromoton from "../img/blackFridayPromotion.png";
 import blackFridayPromoton2 from "../img/blackFridayPromotion2.JPG";
 
 const PricePage = () => {
-  // console.log(packages.PriveteSession);
+  // console.log(packages.PriveteSession); 
   return (
     <>
       <Navbar />
@@ -35,7 +35,7 @@ const PricePage = () => {
                 ** Valid for 1 user - First time only
               </div>
             </div>
-          </div> */}
+          </div> 
           <LazyLoadImage
             src={promotionPricedImg}
             // width={600}
@@ -50,6 +50,7 @@ const PricePage = () => {
             effect="blur"
             className="promotionImg"
           />
+          */}
           {/* <LazyLoadImage
             src={blackFridayPromoton2}
             alt="promotion"
@@ -58,9 +59,8 @@ const PricePage = () => {
           /> */}
           {/* <img src={promotionImg} alt="promotion" /> */}
         </div>
-        <h2 className="privateSessionHeader">Private Training</h2>
-
-          <div className="boxWrap PriveteSession">
+          <h2 className="privateSessionHeader">Trial</h2>
+           <div className="boxWrap PriveteSession">
           {packages.Trial?.map((p, i) => {
             return (
               <div key={i}>
@@ -74,6 +74,7 @@ const PricePage = () => {
             );
           })}
         </div>
+        <h2 className="privateSessionHeader">Private Training</h2>
         <div className="boxWrap PriveteSession">
           {packages.PriveteSession?.map((p, i) => {
             return (
