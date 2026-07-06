@@ -1,4 +1,11 @@
 {
+  "Trial": [
+    {
+      "sessionsAmount": "1 session",
+      "price": "1,500",
+      "pricePerSession": "1,500",
+      "validation": ""
+    },
   "PriveteSession": [
     {
       "sessionsAmount": "1 session",
