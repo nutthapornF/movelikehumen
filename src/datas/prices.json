@@ -10,7 +10,7 @@
     {
       "sessionsAmount": "1 session",
       "price": "2,100",
-      "pricePerSession": "2,000",
+      "pricePerSession": "2,100",
       "validation": ""
     },
     {
@@ -70,7 +70,7 @@
       "sessionsAmount": "30 sessions",
       "price": "72,000",
       "pricePerSession": "2,400",
-      "validation": "Valid 5 months"
+      "validation": ""
     }
   ]
 }
