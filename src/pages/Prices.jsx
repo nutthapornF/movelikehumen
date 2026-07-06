@@ -59,6 +59,21 @@ const PricePage = () => {
           {/* <img src={promotionImg} alt="promotion" /> */}
         </div>
         <h2 className="privateSessionHeader">Private Training</h2>
+
+          <div className="boxWrap PriveteSession">
+          {packages.Trial?.map((p, i) => {
+            return (
+              <div key={i}>
+                <PrizeBox
+                  amountSession={p.sessionsAmount}
+                  price={p.price}
+                  pricePerHour={p.pricePerSession}
+                  validsation={p.validation}
+                />
+              </div>
+            );
+          })}
+        </div>
         <div className="boxWrap PriveteSession">
           {packages.PriveteSession?.map((p, i) => {
             return (
