@@ -2,67 +2,67 @@
   "PriveteSession": [
     {
       "sessionsAmount": "1 session",
-      "price": "1,850",
-      "pricePerSession": "1,850",
-      "validation": "Valid 1 months"
+      "price": "2,100",
+      "pricePerSession": "2,000",
+      "validation": ""
     },
     {
       "sessionsAmount": "10 sessions",
-      "price": "18,000",
-      "pricePerSession": "1,800",
-      "validation": "Valid 2 months"
+      "price": "20,000",
+      "pricePerSession": "2,000",
+      "validation": ""
     },
     {
       "sessionsAmount": "20 sessions",
-      "price": "35,000",
-      "pricePerSession": "1,750",
-      "validation": "Valid 4 months"
+      "price": "39,000",
+      "pricePerSession": "1,950",
+      "validation": ""
     },
     {
       "sessionsAmount": "30 sessions",
-      "price": "51,000",
-      "pricePerSession": "1,700",
-      "validation": "Valid 5 months"
+      "price": "57,000",
+      "pricePerSession": "1,900",
+      "validation": ""
     }
   ],
   "SemiPrivatex2": [
     {
       "sessionsAmount": "10 sessions",
-      "price": "23,000",
-      "pricePerSession": "2,300",
-      "validation": "Valid 2 months"
+      "price": "25,000",
+      "pricePerSession": "2,500",
+      "validation": ""
     },
     {
       "sessionsAmount": "20 sessions",
-      "price": "44,000",
-      "pricePerSession": "2,200",
-      "validation": "Valid 4 months"
+      "price": "48,000",
+      "pricePerSession": "2,400",
+      "validation": ""
     },
     {
       "sessionsAmount": "30 sessions",
-      "price": "63,000",
-      "pricePerSession": "2,100",
-      "validation": "Valid 5 months"
+      "price": "69,000",
+      "pricePerSession": "2,300",
+      "validation": ""
     }
   ],
   "SemiPrivatex3": [
     {
       "sessionsAmount": "10 sessions",
-      "price": "25,000",
-      "pricePerSession": "2,500",
-      "validation": "Valid 2 months"
+      "price": "27,000",
+      "pricePerSession": "2,700",
+      "validation": ""
     },
 
     {
       "sessionsAmount": "20 sessions",
-      "price": "48,000",
-      "pricePerSession": "2,400",
-      "validation": "Valid 4 months"
+      "price": "52,000",
+      "pricePerSession": "2,600",
+      "validation": ""
     },
     {
       "sessionsAmount": "30 sessions",
-      "price": "66,000",
-      "pricePerSession": "2,200",
+      "price": "72,000",
+      "pricePerSession": "2,400",
       "validation": "Valid 5 months"
     }
   ]
